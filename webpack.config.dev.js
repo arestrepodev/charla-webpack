@@ -7,7 +7,10 @@ const config = {
   mode: "development",
   
   // Entry:
-  entry: path.resolve(__dirname, "src/index.js"),
+  entry: {
+    home: path.resolve(__dirname, "src/index.js"),
+    contact: path.resolve(__dirname, "src/contact.js")
+  },
   
   // Output:
   output: {
